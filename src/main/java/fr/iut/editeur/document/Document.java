@@ -44,4 +44,7 @@ public class Document {
         texte = Gpart + "" + Dpart;
     }
 
+    public void clear(){
+        texte= "";
+    }
 }
