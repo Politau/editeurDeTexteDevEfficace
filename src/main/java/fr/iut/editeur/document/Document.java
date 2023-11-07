@@ -38,4 +38,10 @@ public class Document {
         texte = Gpart + modif + Dpart;
     }
 
+    public void effacer(int start, int end) {
+        String Gpart = texte.substring(0, start);
+        String Dpart = texte.substring(end);
+        texte = Gpart + "" + Dpart;
+    }
+
 }
