@@ -11,7 +11,7 @@ public class CommandeAjouter extends CommandeDocument {
 
     @Override
     public void executer() {
-        if(parameters.length < 2) {
+        if (parameters.length < 2) {
             System.err.println("Format attendu : ajouter;texte");
             return;
         }
@@ -19,5 +19,5 @@ public class CommandeAjouter extends CommandeDocument {
         this.document.ajouter(texte);
         super.executer();
     }
-
+}
 }
