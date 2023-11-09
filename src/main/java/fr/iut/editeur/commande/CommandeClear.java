@@ -12,7 +12,7 @@ public class CommandeClear extends CommandeDocument{
             System.err.println("pas de parametre demandé");
             return;
         }
-feur je suis l'erreur
+
         this.document.clear();
         super.executer();
     }
